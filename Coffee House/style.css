@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+background-color: rgb(165, 42, 42, 0.2);
+}
+nav{
+    background-image: url(./images/bg-img.jpeg);
+    width:100vw;
+    height:40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0cqh;
+    margin-bottom: 40px;
+}
+nav input{
+  position: sticky;
+  top:80px;
+  left:15%;
+   width: 70%;
+   height:60px;
+   padding: 40px;
+   border-radius: 10px;
+  background-color:  rgb(99, 18, 18, 1);
+   color: white;
+   border: none;
+
+}
+input[type="text" i] {
+ padding-block: 1px;
+ padding-inline: 8px;
+}
+.coffee_menu {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.coffee_menu div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.8);
+  
+  }
+.img{
+   height: 150px;
+   width: 150px;
+  
+   }
+  
+ img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px black;
+
+ }  
+.coffee_menu > div > h4 {
+    margin-block: 15px;
+}
+
+.coffee_des{
+    width:90%;
+    margin:auto;
+    margin-block: 50px;
+    background-color: rgb(165, 42, 42, 0.3);
+    padding: 30px;
+    box-shadow: 0px 0px 8px brown;
+    border-radius: 5px;
+;
+}
+.coffee_des h1{
+    color: brown;
+}
+.coffee_des p{
+    color: brown;
+    line-height: 20px;
+}
+.coffee_des ol{
+   line-height: 20px;
+   color: brown;
+}
+h1{
+    font-weight: bold;
+}
+.list{
+    margin-inline: 5px;
+  
+    }
+ol li{
+  
+  padding: 5px;
+}
